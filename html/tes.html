@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   
+<style>
+        background-color: #4CAF50;
+#panel, .flip {
+  padding: 10px;
+  text-align: left;
+  color: white;
+  border: solid 1px white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+#panel {
+  display: none;
+  cursor: auto;
+}
+</style>
+<link rel="stylesheet" href="../css/meng-gabut.css" />
+</head>
+<body>
+<div class="flip" onclick="myFunction()" ><i class="fas fa-bars"style="font-size:60px;"></i></div>
+<div id="panel">
+  <div class="side">
+      <p class="tekside"><i class="fas fa-house"></i> Homepage</p>
+      <p class="tekside"><i class="fas fa-wrench"></i> Tools</p>
+      <p class="tekside"><i class="fas fa-book"></i> Work</p>
+      <p class="tekside"><i class="fas fa-briefcase"></i> Bussines</p>
+      <p class="tekside"><i class="fas fa-envelope"></i> Email</p>
+      <p class="tekside"><i class="fas fa-book"></i> Library</p>
+      <p class="tekside"><i class="fas fa-image"></i> Gallery</p>
+      <p class="tekside"><i class="fas fa-calendar"></i> Calendar</p>
+      <p class="tekside"><i class="fas fa-key"></i> Password/Key</p>
+      <p class="tekside"><i class="fas fa-sticky-note"></i> Note</p>
+      <p class="tekside"><i class="fas fa-cogs"></i> Setting</p>
+      <p class="tekside"><i class="fas fa-desktop"></i> Desk</p>
+      <p class="tekside"><i class="fas fa-door-open"></i> Quit</p>
+  
+    </div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("panel");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,166 @@
+body{
+    margin: 0%;
+}
+
+.header{
+    display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 250px;
+   position: fixed;
+   right: 0;
+   left: 0;
+   top: 0;
+   border-bottom: 1px solid #e0e0e0;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: #18329c;
+   font-weight: 600;
+   font-size: 20px;
+
+}
+.menu ul li a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px;
+    color: #ad3a3a;
+    transition: ease 0.5s;
+    animation-iteration-count: inherit;
+}
+
+.hero{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+   
+
+}
+
+.hero-content p{
+   margin: 0;
+   font-size:  80px;
+   font-weight: bold;
+  
+   
+    
+}
+.hero-content button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ad3a3a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+
+}
+.hero-content button:hover{
+    background-color: #ad3a3a;
+    transition: ease 0.5s;
+    animation-timing-function: calc();
+
+
+}
+
+.hero-image img{
+    width: 400px;
+    height: auto;
+}
+
+.sosmed{
+    margin-left: 140px;
+}
+
+.sosmed ul{
+list-style: none;
+
+}
+.sosmed ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.sosmed ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+}
+
+.about{
+    flex-direction: row
+
+}
+
+
+.about skill{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+
+}
+
+.about box{
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+   
+}
+.about-box:hover{
+    transform: translateY(-10px);
+    transition: ease 0.5s;
+   
+
+}
+
+.about-content button{
+font-size: 18px;
+padding: 10px 20px;
+background-color: #ad3a3a;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-family: "Poppins", sans-serif;
+}
+.about-content button:hover{
+    background-color: #ad3a3a;
+    transition: ease 0.5s;
+    animation-timing-function: calc();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    

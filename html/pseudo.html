@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+        h1:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgb(189, 171, 94);
+            position: relative;
+            
+        }
+        h1{
+            background-color:rgb(245, 233, 178);
+            width: 1000px;
+            height: 70px;
+        }
+        h2:nth-child(5){
+            background-color: rgb(245, 233, 178)
+        }
+        h3::before{
+            content: "sebelum-";
+        }
+        h4::after{
+            content: "-sesudah";
+        }
+        h5::selection{
+            background-color: rgb(195, 231, 136);
+            color: rgb(230, 79, 79);
+        }
+        h6::first-letter{
+            color: rgb(255, 0, 0);
+            font-size: 60px;
+        }
+        p::first-line{
+            color: rgb(240, 126, 255);
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h1>hover 1</h1>
+    <h1>hover 2</h1>
+    <h1>hover 3</h1>
+    <h1>hover 4</h1>
+    <h2>nth.child 1</h2>
+    <h3>before</h3>
+    <h4>after</h4>
+    <h5>selection</h5>
+    <h6>First letter</h6>
+    <p>First Line Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim, excepturi magnam ut voluptates minus sequi quidem incidunt voluptatem fugiat tenetur culpa, provident ab reiciendis minima. Eligendi quidem culpa eius.
+    </p>
+    
+</body>
+</html>

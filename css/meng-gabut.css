@@ -1,0 +1,26 @@
+body {
+  background-color: #ceba9c;
+  padding: 9px;
+}
+.side{
+  background-color: rgb(245, 245, 220);
+  margin-top: auto;
+  width: 200px;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  
+}
+.tekside{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  padding: 10px;
+}
+.tekside:hover{
+  background-color: rgb(228, 228, 201);
+  border-radius: 60px;
+}
+
+

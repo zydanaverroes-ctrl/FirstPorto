@@ -1,0 +1,67 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.card_login {
+  background-color: white;
+  width: 400px;
+  height: auto;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.judul_login {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.ket_daftar {
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  margin-top: 10px;
+}
+
+.clom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10;
+  margin-top: 20px;
+  width: 100%;
+  gap: 10px;
+  border-radius: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.loginnya {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 15px;
+  gap: 7;
+  font-size: 20px;
+  border-radius: 10px;
+  gap: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.placeholder {
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
